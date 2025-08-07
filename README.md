@@ -31,6 +31,27 @@ I often work on research, writing, or competitions where I juggle multiple apps 
 
 ---
 
+## 🧮 Project: CLI Calculator with Validation (Python)
+
+A simple command-line calculator that safely evaluates math expressions entered by the user. It filters out invalid characters and incorrect operator combinations before using `eval()` for computation.
+
+### ✅ Features
+
+- Accepts basic math operations: `+`, `-`, `*`, `/`, `%`, and parentheses.
+- Filters invalid characters using regular expressions.
+- Detects incorrect operator sequences like `++`, `*/`, `+-`, etc.
+- Catches syntax and type errors with friendly error messages.
+- Suppresses traceback output for cleaner command-line usage.
+
+### 🛠 Technologies Used
+
+- Python 3
+- `re` (regular expressions) for input validation
+- `eval()` for evaluating safe expressions
+- Error handling (`try-except`) for graceful failure
+
+---
+
 ## 🗂️ More Projects Coming Soon...
 
 This repo will be expanded with:
@@ -38,7 +59,7 @@ This repo will be expanded with:
 - Scripts and automation tools
 - UI experiments
 - Learning-focused builds
-
+  
 Stay tuned!
 
 ---
